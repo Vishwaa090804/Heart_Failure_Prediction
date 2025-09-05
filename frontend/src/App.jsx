@@ -23,7 +23,7 @@ function App() {
   const [error, setError] = useState(null);
 
   // Backend API URL - change this to your Flask server URL
-  const API_BASE_URL = 'http://127.0.0.1:5000';
+  const API_BASE_URL = 'https://heart-failure-prediction-147e.onrender.com';
 
   const handleInputChange = (field, value) => {
     setFormData(prev => ({
